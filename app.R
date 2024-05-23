@@ -10,11 +10,11 @@ library(scales)
 
 load('Closure.RData')
 
-SpannerNames <- c("","2020 Building Info (Higher condition score is better)","2023 School Enrollment","2023 School Demographics","2023 Climate Survey (% Favorable)",
+SpannerNames <- c("","2020 Building Info (Lower condition score is better)","2023 School Enrollment","2023 School Demographics","2023 Climate Survey (% Favorable)",
                   "2023 Special Ed Services","Seattle Racial & Social Equity Composite Index","% Area in Redlining Categories"
 )
 
-SpannerNames2 <- c("2020 Building Info (Higher condition score is better)","2023 School Enrollment","2023 School Demographics","2023 Climate Survey (% Favorable)",
+SpannerNames2 <- c("2020 Building Info (Lower condition score is better)","2023 School Enrollment","2023 School Demographics","2023 Climate Survey (% Favorable)",
                   "2023 Special Ed Services","Seattle Racial & Social Equity Composite Index","% Area in Redlining Categories"
 )
 
