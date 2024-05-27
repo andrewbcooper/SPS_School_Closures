@@ -55,7 +55,7 @@ server <- function(input, output,session) {
     HTML(
       htmlTable(NearestNeighborData(),css.cell = css.cell.NN,
                 tspanner = SpannerNames,
-                n.tspanner = c(1,2,4,20,12,6,5),
+                n.tspanner = c(1,3,4,20,12,6,5),
                 col.rgroup = c("none", "#d8d8d8"),
                 css.tspanner = "color: #007BED; font-size: 1.5em;text-align: left;",
                 css.tspanner.sep = "border-top: 3px solid;")
@@ -87,7 +87,7 @@ server <- function(input, output,session) {
     HTML(
       htmlTable(CustomCompareData(),css.cell = css.cell.CC,
                 tspanner = SpannerNames2,
-                n.tspanner = c(2,4,20,12,6,5),
+                n.tspanner = c(3,4,20,12,6,5),
                 col.rgroup = c("none", "#d8d8d8"),
                 css.tspanner = "color: #007BED; font-size: 1.5em;text-align: left;",
                 css.tspanner.sep = "border-top: 3px solid;")
